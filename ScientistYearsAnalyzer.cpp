@@ -61,8 +61,6 @@ std::string findBestYears(int numScientists, const std::vector<Scientist>& scien
 
     std::sort(bestYears.begin(), bestYears.end());
 
-    // Find the scientists who lived during the best years
-
     // Get the oldest range among the best years
     int oldestStartYear = *bestYears.begin();
     int oldestEndYear = *bestYears.rbegin();
